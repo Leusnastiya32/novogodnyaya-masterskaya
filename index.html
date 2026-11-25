@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Новогодняя мастерская</title>
+<style>
+  body { margin: 0; background: #FAF7EF; overflow-x: hidden; }
+  .draft-note { font: 14px/1.5 system-ui, sans-serif; background: #FFF4CC; color: #4A3B00; padding: 10px 16px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="draft-note">Черновик от 25.11. Цены пробные. Пунктирной рамкой отмечено то, что нужно уточнить у Юлии.</div>
+
+<!-- НАЧАЛО БЛОКА ДЛЯ ELEMENTOR -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monomakh&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+#jlw { --el:#1E4636; --bel:#FAF7EF; --gold:#D4B26A; --dgold:#8C6A28; --lgold:#ECD8A2; --sage:#4A5A50; --line:rgba(140,106,40,.35); --paper:#FFFDF8;
+  background: var(--bel); color: var(--el); font-family: 'Onest', system-ui, sans-serif; font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+#jlw *, #jlw *::before, #jlw *::after { box-sizing: border-box; }
+/* шрифты: заголовки, имя, цены и цитата — Monomakh («Ижица»); описания и весь остальной текст — Onest */
+#jlw p, #jlw li, #jlw a, #jlw figcaption, #jlw nav { font-family: 'Onest', system-ui, sans-serif; }
+#jlw h1, #jlw h2, #jlw h3, #jlw h4 { font-family: 'Monomakh', Georgia, serif; font-weight: 400; color: var(--el); margin: 0 0 .4em; line-height: 1.15; letter-spacing: 0; text-transform: none; }
+#jlw .logo, #jlw .hero .quote, #jlw .price s, #jlw .price b { font-family: 'Monomakh', Georgia, serif; font-weight: 400; }
+#jlw h1 { font-size: clamp(40px, 10vw, 76px); color: var(--bel); }
+#jlw h2 { font-size: clamp(34px, 7vw, 50px); }
+#jlw h3, #jlw h4 { font-size: 24px; }
+#jlw h4 { margin-top: 26px; }
+#jlw p { margin: 0 0 1em; }
+#jlw a { color: inherit; }
+#jlw img { display: block; max-width: 100%; height: auto; }
+#jlw .g { color: var(--dgold); }
+#jlw .on-el .g { color: var(--gold); }
+#jlw .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+#jlw section { padding: 56px 0; position: relative; }
+#jlw .kicker { font-size: 13px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; color: var(--dgold); margin: 0 0 10px; }
+#jlw .on-el .kicker { color: var(--lgold); }
+/* главное описание блока — крупнее и плотнее остального текста */
+#jlw .lead { font-size: clamp(19px, 2.2vw, 21px); font-weight: 500; line-height: 1.5; color: var(--el); max-width: 40em; }
+#jlw .on-el .lead { color: rgba(250,247,239,.92); }
+#jlw .todo { display: inline-block; border: 1px dashed #B8962E; background: rgba(212,178,106,.16); color: #5E4614; padding: 0 6px; border-radius: 6px; font-size: .9em; font-weight: 400; }
+#jlw .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+#jlw .linen { background-color: var(--bel); background-image: repeating-linear-gradient(0deg, rgba(30,70,54,.025) 0 1px, transparent 1px 4px), repeating-linear-gradient(90deg, rgba(30,70,54,.02) 0 1px, transparent 1px 5px); }
+#jlw .on-el { background-color: var(--el); color: var(--bel); background-image: repeating-linear-gradient(0deg, rgba(255,255,255,.03) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,.06) 0 1px, transparent 1px 3px); }
+#jlw .on-el h2, #jlw .on-el h3, #jlw .on-el h4 { color: var(--bel); }
+/* разделитель между блоками: золотая нить с ромбом, прорисовывается при прокрутке */
+#jlw .sep::before { content: ""; position: absolute; top: 0; left: 50%; width: min(640px, 84%); height: 1px; background: linear-gradient(90deg, rgba(212,178,106,0), var(--gold) 30%, var(--gold) 70%, rgba(212,178,106,0)); transform: translateX(-50%); }
+#jlw .sep::after { content: ""; position: absolute; top: -5px; left: 50%; width: 10px; height: 10px; margin-left: -5px; background: var(--bel); border: 1px solid var(--dgold); border-radius: 2px; transform: rotate(45deg); }
+#jlw .btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+#jlw .btn { position: relative; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 24px; border-radius: 12px; font: 500 16px/1.2 'Onest', system-ui, sans-serif; letter-spacing: .02em; text-decoration: none; text-align: center; border: 1px solid var(--el); background-color: var(--el); color: var(--bel); transition: background-color .25s, background-size .45s cubic-bezier(.2,.7,.2,1), color .3s, transform .25s; }
+#jlw .btn:hover { background-color: #163628; transform: translateY(-1px); }
+#jlw .btn--gold { background-color: var(--gold); border-color: var(--gold); color: var(--el); }
+#jlw .btn--gold:hover { background-color: #E0C27F; }
+#jlw .btn--gold::after { content: ""; position: absolute; top: 0; left: -60%; width: 40%; height: 100%; background: linear-gradient(100deg, rgba(255,255,255,0), rgba(255,255,255,.55), rgba(255,255,255,0)); transform: skewX(-20deg); animation: jlwSweep 5.5s ease-in-out infinite; }
+@keyframes jlwSweep { 0%, 70% { left: -60%; } 100% { left: 130%; } }
+/* контурная кнопка заливается слева направо при наведении */
+#jlw .btn--line { background-color: transparent; background-image: linear-gradient(var(--el), var(--el)); background-repeat: no-repeat; background-size: 0% 100%; color: var(--el); }
+#jlw .btn--line:hover { background-color: transparent; background-size: 100% 100%; color: var(--bel); }
+#jlw .on-el .btn--line { background-image: linear-gradient(var(--gold), var(--gold)); color: var(--bel); border-color: rgba(250,247,239,.6); }
+#jlw .on-el .btn--line:hover { color: var(--el); border-color: var(--gold); }
+#jlw .ico { width: 28px; height: 28px; flex: none; color: var(--dgold); display: block; }
+#jlw .on-el .ico { color: var(--gold); }
+#jlw .link-small { font-size: 15px; color: var(--sage); margin: 12px 0 0; }
+#jlw .note { display: flex; gap: 12px; align-items: flex-start; font-size: 15px; color: var(--sage); border-top: 1px solid var(--line); padding-top: 14px; margin-top: 8px; }
+#jlw .marks { list-style: none; margin: 0 0 1em; padding: 0; }
+#jlw .marks li { position: relative; padding-left: 26px; margin-bottom: 10px; }
+#jlw .marks li::before { content: ""; position: absolute; left: 4px; top: .62em; width: 8px; height: 8px; border: 1px solid var(--dgold); border-radius: 2px; transform: rotate(45deg); }
+#jlw .marks b { font-weight: 600; color: var(--dgold); }
+
+/* шапка и первый экран */
+#jlw .top { padding: 14px 0; border-bottom: 1px solid rgba(212,178,106,.35); }
+#jlw .top .wrap { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+#jlw .logo { font-size: 24px; text-decoration: none; color: var(--bel); }
+#jlw .logo b { font-weight: 400; color: var(--gold); }
+#jlw .top a.small { font-size: 14px; color: var(--lgold); text-decoration: none; }
+#jlw .hero { padding: 28px 0 56px; overflow: hidden; }
+#jlw .hero-frame { position: relative; z-index: 1; overflow: hidden; border: 2px solid var(--gold); box-shadow: 0 0 0 6px var(--el), 0 0 0 7px var(--gold); border-radius: 26px; margin: 8px; padding: 40px 20px; text-align: center; }
+#jlw .hero-frame > * { position: relative; }
+#jlw .hero-frame::before { content: ""; position: absolute; left: 50%; top: 40%; width: 560px; height: 560px; margin: -280px 0 0 -280px; border-radius: 50%; background: radial-gradient(closest-side, rgba(212,178,106,.30), rgba(212,178,106,0)); pointer-events: none; animation: jlwGlow 7s ease-in-out infinite; }
+@keyframes jlwGlow { 0%, 100% { opacity: .5; transform: scale(.9); } 50% { opacity: 1; transform: scale(1.06); } }
+#jlw .shine { background: linear-gradient(100deg, #D4B26A 35%, #F7E9C4 48%, #D4B26A 62%); background-size: 300% 100%; -webkit-background-clip: text; background-clip: text; color: transparent !important; animation: jlwShine 7s ease-in-out infinite; }
+@keyframes jlwShine { 0%, 35% { background-position: 100% 0; } 100% { background-position: 0 0; } }
+#jlw .hero .quote { font-size: 21px; color: var(--lgold); margin-bottom: 18px; }
+#jlw .hero .lead { margin: 0 auto; }
+#jlw .hero .btns { justify-content: center; margin-top: 28px; }
+/* первый экран на весь экран: под текстом размытая картина «Морозное окно» (img/fon-okno.jpg) */
+#jlw .first { position: relative; isolation: isolate; min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; background-color: #12291F; overflow: hidden; }
+#jlw .first > .bg { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: 6% 60%; transform-origin: 50% 60%; animation: jlwBgZoom 40s ease-in-out infinite alternate; }
+#jlw .first::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(180deg, rgba(18,41,31,.55) 0, rgba(18,41,31,.25) 14%, rgba(18,41,31,.3) 50%, rgba(18,41,31,.25) 86%, rgba(18,41,31,.6) 100%); }
+#jlw .first .top, #jlw .first .hero { background: transparent; }
+#jlw .first .hero { flex: 1; display: flex; align-items: center; }
+#jlw .first .hero > .wrap { width: 100%; }
+#jlw .first .hero-frame { background: rgba(18,41,31,.3); box-shadow: 0 0 0 6px rgba(30,70,54,.82), 0 0 0 7px var(--gold); }
+#jlw .first .hero-frame > p, #jlw .first .hero-frame > h1 { text-shadow: 0 1px 2px rgba(18,41,31,.55), 0 0 22px rgba(18,41,31,.8); }
+#jlw .first .hero-frame h1 .shine { text-shadow: none; }
+@keyframes jlwBgZoom { from { transform: scale(1); } to { transform: scale(1.08); } }
+#jlw .snow { position: absolute; inset: 0; pointer-events: none; overflow: hidden; z-index: 0; }
+#jlw .flake { position: absolute; top: -40px; color: rgba(236,216,162,.5); animation: jlwFall linear infinite; }
+#jlw .flake svg { width: 100%; height: 100%; display: block; }
+@keyframes jlwFall { from { transform: translate3d(0, 0, 0) rotate(0deg); } to { transform: translate3d(var(--dx, 30px), var(--fall, 900px), 0) rotate(200deg); } }
+
+/* навигация */
+#jlw .navgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 18px; }
+#jlw .navgrid a { display: flex; flex-direction: column; gap: 10px; padding: 16px 14px; min-height: 112px; background: var(--paper); border: 1px solid var(--line); border-radius: 16px; text-decoration: none; font-size: 16px; font-weight: 500; line-height: 1.35; transition: border-color .3s, background .3s, transform .3s; }
+#jlw .navgrid a:hover { border-color: var(--dgold); background: #fff; transform: translateY(-3px); }
+#jlw .navgrid a .ico { transition: transform .4s ease; animation: jlwFloat 3.6s ease-in-out infinite; }
+#jlw .navgrid a:nth-child(2) .ico { animation-delay: -.9s; }
+#jlw .navgrid a:nth-child(3) .ico { animation-delay: -1.8s; }
+#jlw .navgrid a:nth-child(4) .ico { animation-delay: -2.7s; }
+@keyframes jlwFloat { 0%, 100% { translate: 0 0; } 50% { translate: 0 -5px; } }
+#jlw .navgrid a:hover .ico { transform: scale(1.12); }
+#jlw .navgrid a.hl { background: var(--el); color: var(--bel); border-color: var(--gold); }
+#jlw .navgrid a.hl .ico { color: var(--gold); }
+
+/* блоки товаров: одинаковая схема у свечей, картин и матрёшки */
+#jlw .course { display: grid; gap: 28px; }
+#jlw .collage { display: grid; grid-template-columns: 1.25fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; aspect-ratio: 5 / 4; }
+#jlw .collage figure:first-child { grid-row: 1 / 3; }
+#jlw .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+#jlw .collage figure, #jlw .gallery figure { margin: 0; overflow: hidden; position: relative; border: 1px solid var(--line); border-radius: 16px; isolation: isolate; }
+#jlw .collage img { width: 100%; height: 100%; object-fit: cover; }
+#jlw .gallery img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
+#jlw .collage figcaption, #jlw .gallery figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 10px 8px; font-size: 13px; line-height: 1.35; color: var(--bel); background: linear-gradient(0deg, rgba(20,40,31,.75), rgba(20,40,31,0)); }
+#jlw figcaption .todo { color: var(--lgold); background: rgba(20,40,31,.55); }
+#jlw .box { margin-top: 22px; padding: 20px 20px 6px; border: 1px solid var(--line); border-radius: 18px; background: var(--paper); }
+#jlw .box h4 { margin-top: 0; }
+#jlw .price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 18px; margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line); }
+#jlw .price .kicker { width: 100%; margin: 0; }
+#jlw .price s { position: relative; font-size: 30px; color: var(--sage); text-decoration: none; }
+#jlw .price s::after { content: ""; position: absolute; left: -4px; right: -4px; top: 52%; height: 2px; background: var(--dgold); transform: rotate(-7deg); transform-origin: left center; }
+#jlw .price b { display: inline-block; font-size: clamp(48px, 12vw, 62px); line-height: 1.05; color: var(--el); }
+#jlw .price b.pop { animation: jlwPop .8s cubic-bezier(.3,1.5,.5,1); }
+@keyframes jlwPop { 0% { transform: scale(1); } 40% { transform: scale(1.08); text-shadow: 0 0 26px rgba(212,178,106,.85); } 100% { transform: scale(1); } }
+
+/* сертификаты */
+#jlw .certs { display: grid; gap: 22px; margin-top: 26px; }
+#jlw .cert-card { display: grid; grid-template-columns: 112px 1fr; gap: 16px; align-items: start; padding: 16px; background: var(--paper); border: 1px solid var(--line); border-radius: 18px; }
+#jlw .cert-card .ph { position: relative; overflow: hidden; border-radius: 10px; isolation: isolate; box-shadow: 0 10px 22px -12px rgba(30,70,54,.6); transition: transform .5s ease; }
+#jlw .cert-card .ph::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(115deg, rgba(255,240,200,0) 35%, rgba(255,240,200,.5) 50%, rgba(255,240,200,0) 65%); background-size: 300% 100%; background-position: 100% 0; animation: jlwCertShine 7s ease-in-out infinite; }
+#jlw .cert-card:nth-child(2) .ph::after { animation-delay: 1.7s; }
+#jlw .cert-card:nth-child(3) .ph::after { animation-delay: 3.4s; }
+#jlw .cert-card:nth-child(4) .ph::after { animation-delay: 5.1s; }
+@keyframes jlwCertShine { 0%, 60% { background-position: 100% 0; } 100% { background-position: 0 0; } }
+#jlw .cert-card img { width: 100%; }
+#jlw .cert-card h3 { margin-bottom: .3em; }
+#jlw .cert-card p { font-size: 15px; margin-bottom: .6em; }
+
+/* шаги, о Юлии, подвал */
+#jlw .steps { display: grid; gap: 18px; margin-top: 12px; }
+#jlw .step { display: flex; gap: 16px; align-items: flex-start; }
+#jlw .step .ico { width: 36px; height: 36px; margin-top: 4px; }
+#jlw .step h3 { margin-bottom: .2em; }
+#jlw .step p { color: var(--sage); margin: 0; }
+#jlw .step .btns { margin-top: 14px; }
+#jlw .about { display: grid; gap: 30px; align-items: center; }
+#jlw .portrait { border: 2px solid var(--gold); box-shadow: 0 0 0 6px var(--bel), 0 0 0 7px var(--gold); margin: 8px; max-width: 400px; overflow: hidden; border-radius: 28px; isolation: isolate; animation: jlwFrame 6s ease-in-out infinite; }
+@keyframes jlwFrame { 0%, 100% { box-shadow: 0 0 0 6px var(--bel), 0 0 0 7px var(--gold), 0 0 0 0 rgba(212,178,106,0); } 50% { box-shadow: 0 0 0 6px var(--bel), 0 0 0 7px var(--gold), 0 0 34px 6px rgba(212,178,106,.45); } }
+#jlw .portrait img { width: 100%; }
+#jlw footer { position: relative; overflow: hidden; padding: 36px 0; font-size: 15px; }
+#jlw footer .wrap { position: relative; z-index: 1; display: grid; gap: 14px; }
+#jlw footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+#jlw footer a { color: var(--lgold); text-decoration: none; }
+#jlw footer a:hover { text-decoration: underline; }
+#jlw footer .fine { color: rgba(250,247,239,.6); font-size: 13px; }
+
+/* анимация появления */
+#jlw.jlw-js .rv { opacity: 0; translate: 0 28px; transition: opacity .9s ease, translate .9s cubic-bezier(.2,.7,.2,1); }
+#jlw.jlw-js .rv.in { opacity: 1; translate: 0 0; }
+/* надпись над заголовком «собирается» — буквы сходятся */
+#jlw.jlw-js .kicker.rv { letter-spacing: .45em; transition: opacity .9s ease, translate .9s cubic-bezier(.2,.7,.2,1), letter-spacing 1.4s cubic-bezier(.2,.7,.2,1); }
+#jlw.jlw-js .kicker.rv.in { letter-spacing: .18em; }
+/* заголовки поднимаются по словам */
+#jlw .w { display: inline-block; overflow: hidden; vertical-align: top; padding: .1em .03em .18em; margin: -.1em -.03em -.18em; }
+#jlw .wi { display: inline-block; }
+#jlw.jlw-js .split .wi { transform: translateY(115%) rotate(5deg); transition: transform 1s cubic-bezier(.2,.75,.2,1); }
+#jlw.jlw-js .split.in .wi { transform: none; }
+/* ромбики у списков раскрываются */
+#jlw.jlw-js .marks li.rv::before { transform: rotate(-135deg) scale(0); transition: transform .7s cubic-bezier(.3,1.6,.5,1) .3s; }
+#jlw.jlw-js .marks li.rv.in::before { transform: rotate(45deg) scale(1); }
+/* золотая нить между блоками */
+#jlw.jlw-js .sep::before { transform: translateX(-50%) scaleX(0); transition: transform 1.6s cubic-bezier(.2,.7,.2,1); }
+#jlw.jlw-js .sep::after { transform: rotate(-135deg) scale(0); transition: transform .9s cubic-bezier(.3,1.5,.5,1) .5s; }
+#jlw.jlw-js .sep.sec-in::before { transform: translateX(-50%) scaleX(1); }
+#jlw.jlw-js .sep.sec-in::after { transform: rotate(45deg) scale(1); }
+/* старая цена зачёркивается на глазах */
+#jlw.jlw-js .price s::after { transform: rotate(-7deg) scaleX(0); transition: transform .6s ease .2s; }
+#jlw.jlw-js .price.go s::after { transform: rotate(-7deg) scaleX(1); }
+/* фото открываются «шторкой» */
+#jlw.jlw-js .rv-img { clip-path: inset(0 -60px 100% -60px); transition: clip-path 1.3s cubic-bezier(.2,.7,.2,1), transform .5s ease; }
+#jlw.jlw-js .rv-img img { scale: 1.14; transition: scale 2.2s cubic-bezier(.2,.7,.2,1); }
+#jlw.jlw-js .rv-img.in { clip-path: inset(-60px -60px -60px -60px); }
+#jlw.jlw-js .rv-img.in img { scale: 1; }
+#jlw .collage .rv-img.in img, #jlw .gallery .rv-img.in img { animation: jlwKB 16s ease-in-out 2.4s infinite alternate; }
+@keyframes jlwKB { from { transform: scale(1); } to { transform: scale(1.07) translate(-1%, -1%); } }
+@media (hover: hover) {
+  #jlw .cert-card { transition: transform .4s ease, box-shadow .4s ease; }
+  #jlw.jlw-js .cert-card.rv { transition: opacity .9s ease, translate .9s cubic-bezier(.2,.7,.2,1), transform .4s ease, box-shadow .4s ease; }
+  #jlw .cert-card:hover { transform: translateY(-4px); box-shadow: 0 16px 32px -20px rgba(30,70,54,.5); }
+  #jlw .cert-card:hover .ph { transform: perspective(700px) rotateY(-10deg) rotateX(4deg) scale(1.04); }
+}
+@media (prefers-reduced-motion: reduce) {
+  #jlw *, #jlw *::before, #jlw *::after { animation: none !important; transition: none !important; }
+  #jlw.jlw-js .rv { opacity: 1; translate: 0 0; }
+  #jlw.jlw-js .rv-img { clip-path: none; }
+  #jlw.jlw-js .rv-img img { scale: 1; }
+  #jlw .snow { display: none; }
+}
+
+@media (min-width: 600px) {
+  #jlw .cert-card { grid-template-columns: 150px 1fr; gap: 20px; }
+}
+@media (min-width: 760px) {
+  #jlw .wrap { padding: 0 24px; }
+  #jlw section { padding: 84px 0; }
+  #jlw .hero-frame { padding: 64px 48px; margin: 12px; }
+  #jlw .first::before { background: radial-gradient(ellipse 55% 45% at 50% 52%, rgba(18,41,31,.42), rgba(18,41,31,0) 100%), linear-gradient(180deg, rgba(18,41,31,.6) 0, rgba(18,41,31,0) 16%, rgba(18,41,31,0) 80%, rgba(18,41,31,.6) 100%); }
+  #jlw .first .hero-frame { background: rgba(18,41,31,.5); -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); }
+  #jlw .navgrid { grid-template-columns: repeat(4, 1fr); }
+  #jlw .course { grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+  #jlw .course > .collage, #jlw .course > .gallery { position: sticky; top: 24px; }
+  #jlw .course--rev > .collage, #jlw .course--rev > .gallery { order: 2; }
+  #jlw .certs { grid-template-columns: 1fr 1fr; }
+  #jlw .steps { grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  #jlw .about { grid-template-columns: 400px 1fr; gap: 56px; }
+  #jlw footer .wrap { grid-template-columns: 1fr auto; align-items: center; }
+}
+</style>
+
+<div id="jlw">
+  <template id="jlw-flake"><svg class="ico" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill="currentColor" d="M219.88 151.05a4 4 0 0 1-2.93 4.83l-28.6 7l7.51 28.12a4 4 0 0 1-2.83 4.9a3.7 3.7 0 0 1-1 .14a4 4 0 0 1-3.86-3l-8.17-30.4l-48-27.71v55.41l22.83 22.83a4 4 0 0 1-5.66 5.66L128 197.66l-21.17 21.17a4 4 0 0 1-5.66-5.66L124 190.34v-55.41l-48 27.71L67.86 193a4 4 0 0 1-3.86 3a3.7 3.7 0 0 1-1-.14a4 4 0 0 1-2.83-4.9l7.51-28.05l-28.6-7a4 4 0 1 1 1.92-7.79l31 7.61L120 128l-48-27.73l-31 7.61a4 4 0 0 1-1 .12a4 4 0 0 1-1-7.88l28.6-7L60.14 65a4 4 0 0 1 7.72-2L76 93.36l48 27.71V65.66l-22.83-22.83a4 4 0 0 1 5.66-5.66L128 58.34l21.17-21.17a4 4 0 1 1 5.66 5.66L132 65.66v55.41l48-27.71L188.14 63a4 4 0 0 1 7.72 2l-7.51 28.05l28.6 7A4 4 0 0 1 216 108a4 4 0 0 1-1-.12l-31-7.61L136 128l48 27.73l31-7.61a4 4 0 0 1 4.88 2.93"/></svg></template>
+
+  <div class="first">
+  <img class="bg" src="img/fon-okno.jpg" alt="" aria-hidden="true" fetchpriority="high">
+
+  <header class="top on-el">
+    <div class="wrap">
+      <a class="logo" href="https://julialeus.ru"><b>Ю</b>лия Леус</a>
+      <a class="small" href="#jlw-cert">Сертификаты</a>
+    </div>
+  </header>
+
+  <section class="hero on-el">
+    <div class="snow" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="hero-frame">
+        <p class="quote">«Хочется встретить новый год со светом в доме»</p>
+        <h1>Новогодняя <span class="g shine">мастерская</span></h1>
+        <p class="lead">Авторская праздничная коллекция Юлии Леус: курс по славянским свечам, ресурсные картины, курс «Матрёшка благополучия» и подарочные сертификаты.</p>
+        <div class="btns">
+          <a class="btn btn--gold" href="#jlw-nav">Выбрать подарок</a>
+          <a class="btn btn--line" href="#jlw-cert">Выбрать сертификат</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <section id="jlw-nav" class="linen">
+    <div class="wrap">
+      <p class="kicker">Зимний солнцеворот</p>
+      <h2>Свет <span class="g">возвращается</span></h2>
+      <p class="lead">Самая длинная ночь в году — зимний солнцеворот. После неё день начинает прибавляться, и по славянской традиции этот поворот к свету встречают огнём. В мастерской можно выбрать подарок по душе — или подарить сертификат, чтобы выбор остался за тем, кому вы дарите.</p>
+      <nav class="navgrid" aria-label="Разделы мастерской">
+        <a href="#jlw-candles"><svg class="ico" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill="currentColor" d="M172.34 52.86a218.3 218.3 0 0 0-41.25-34a6 6 0 0 0-6.18 0a218.3 218.3 0 0 0-41.25 34C56.4 81.48 42 113 42 144a86 86 0 0 0 172 0c0-31-14.4-62.52-41.66-91.14M94 184c0-29.8 25.11-50.41 34-56.78c8.91 6.35 34 26.87 34 56.78a34.05 34.05 0 0 1-32.25 34h-3.5A34.05 34.05 0 0 1 94 184m74.42 21.94A45.7 45.7 0 0 0 174 184c0-42.9-41.16-68.09-42.91-69.14a6 6 0 0 0-6.18 0C123.16 115.91 82 141.1 82 184a45.7 45.7 0 0 0 5.58 21.94A74 74 0 0 1 54 144c0-59.83 59.62-103.26 74-112.86c14.39 9.6 74 53 74 112.86a74 74 0 0 1-33.58 61.94"/></svg>Курс «Энергия живого огня»</a>
+        <a href="#jlw-paintings"><svg class="ico" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill="currentColor" d="M224 26c-20.8 0-44.11 11.41-69.3 33.9c-18.08 16.16-33.7 35-44.4 49.1A58 58 0 0 0 34 164c0 32.07-20.43 46.39-21.35 47A6 6 0 0 0 16 222h76a58 58 0 0 0 55-76.3c14.08-10.67 32.92-26.32 49.08-44.4C218.59 76.11 230 52.8 230 32a6 6 0 0 0-6-6M92 210H30.65C37.92 200.85 46 185.78 46 164a46 46 0 1 1 46 46m29.49-95.91c3.6-4.67 7.88-10 12.71-15.69a78.2 78.2 0 0 1 23.4 23.4c-5.67 4.83-11 9.11-15.69 12.71a58.4 58.4 0 0 0-20.42-20.42m45.2-.3a90.2 90.2 0 0 0-24.48-24.48C163.05 66.46 191 42 217.56 38.44C214 65 189.54 93 166.69 113.79"/></svg>Ресурсные картины</a>
+        <a href="#jlw-matr"><svg class="ico" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g fill="currentColor"><path d="M14 8.5a.5.5 0 0 1 1 0V9a.5.5 0 0 1-1 0zm3 0a.5.5 0 0 1 1 0V9a.5.5 0 0 1-1 0z"/><path d="M9 14.5c-1.145 1.717-1.763 2.985-1.943 4.5H6a1 1 0 0 0-1 1v1a9 9 0 0 0 9 9h4a9 9 0 0 0 9-9v-1a1 1 0 0 0-1-1h-1.057c-.18-1.515-.798-2.783-1.943-4.5C22 13 21.5 10 21.5 9c0-2.333-.5-7-5.5-7s-5.5 4.667-5.5 7c0 1-.5 4-1.5 5.5M19.603 19H23v1a6 6 0 0 1-6 6h-2a6 6 0 0 1-6-6v-1h3.397c1.299-1.436 2.574-4.053 3.232-5.84c-.363.509-.957.84-1.629.84h-1.318a.18.18 0 0 1-.182-.182c0-1.004.814-1.818 1.818-1.818h3.364c1.004 0 1.818.814 1.818 1.818c0 .1-.081.182-.182.182H18a2 2 0 0 1-1.629-.84c.658 1.787 1.933 4.404 3.232 5.84M16 12a4 4 0 0 1-4-4a4 4 0 0 0 4-4a4 4 0 0 0 4 4a4 4 0 0 1-4 4"/></g></svg>Курс «Матрёшка благополучия»</a>
+        <a class="hl" href="#jlw-cert"><svg class="ico" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill="currentColor" d="M216 74h-41.26a46.4 46.4 0 0 0 6-4.48a27.56 27.56 0 0 0 9.22-20A30.63 30.63 0 0 0 158.5 18a27.56 27.56 0 0 0-20 9.22A57.1 57.1 0 0 0 128 45.76a57.1 57.1 0 0 0-10.48-18.53A27.56 27.56 0 0 0 97.5 18A30.63 30.63 0 0 0 66 49.51a27.56 27.56 0 0 0 9.22 20a46 46 0 0 0 6 4.48H40A14 14 0 0 0 26 88v32a14 14 0 0 0 14 14h2v66a14 14 0 0 0 14 14h144a14 14 0 0 0 14-14v-66h2a14 14 0 0 0 14-14V88a14 14 0 0 0-14-14m-80.23-11c2.25-12.12 6.29-21.75 11.69-27.85a15.68 15.68 0 0 1 11.4-5.15h.55A18.6 18.6 0 0 1 178 49.14a15.68 15.68 0 0 1-5.18 11.4c-10.72 9.46-28.9 12.29-38.48 13.11c.25-2.89.66-6.57 1.43-10.65M83.45 35.45A18.7 18.7 0 0 1 96.59 30h.55a15.68 15.68 0 0 1 11.4 5.18c9.46 10.72 12.29 28.9 13.11 38.48c-2.89-.25-6.57-.68-10.61-1.43c-12.12-2.23-21.75-6.29-27.85-11.7A15.64 15.64 0 0 1 78 49.14a18.65 18.65 0 0 1 5.45-13.69M38 120V88a2 2 0 0 1 2-2h82v36H40a2 2 0 0 1-2-2m16 80v-66h68v68H56a2 2 0 0 1-2-2m148 0a2 2 0 0 1-2 2h-66v-68h68Zm16-80a2 2 0 0 1-2 2h-82V86h82a2 2 0 0 1 2 2Z"/></svg>Подарочный сертификат</a>
+      </nav>
+    </div>
+  </section>
+
+  <section id="jlw-candles" class="linen sep">
+    <div class="wrap course">
+      <div class="collage">
+        <figure class="rv-img"><img src="img/kurs-svechi-1.jpg" alt="Четыре свечи из вощины с травами и украшениями" loading="lazy"></figure>
+        <figure class="rv-img"><img src="img/kurs-svechi-2.jpg" alt="Парная витая свеча из воска" loading="lazy"></figure>
+        <figure class="rv-img"><img src="img/kurs-svechi-3.jpg" alt="Горящие свечи из вощины в новогодней композиции" loading="lazy"></figure>
+      </div>
+      <div class="text">
+        <p class="kicker">Курс по славянским свечам</p>
+        <h2>Энергия <span class="g">живого огня</span></h2>
+        <p class="lead">Славянские свечи для силы, гармонии и благополучия — своими руками. Вы создадите четыре свечи, каждую со своим намерением.</p>
+        <h4>Что вы создадите на курсе</h4>
+        <ul class="marks">
+          <li><b>Свеча-Чистка</b> — для очищающих практик, когда хочется отпустить накопившееся напряжение.</li>
+          <li><b>Парная свеча</b> — для гармонии и тепла в отношениях.</li>
+          <li><b>Свеча на достаток</b> — для намерений о достатке и финансах.</li>
+          <li><b>Свеча-Помощница</b> — для личной силы и дальнейшей работы со свечами.</li>
+        </ul>
+        <div class="box">
+          <h4>Что ещё вы получите</h4>
+          <ul class="marks">
+            <li>Научитесь работать с натуральным воском и травами.</li>
+            <li>Узнаете, как формулировать намерения.</li>
+            <li>Освоите основы славянских свечных практик.</li>
+            <li>Познакомитесь с символикой пламени.</li>
+            <li>Сможете делать свечи сами — для себя и близких.</li>
+            <li>Получите основу, чтобы развивать увлечение дальше, как своё ремесло.</li>
+          </ul>
+        </div>
+        <p style="margin-top:22px">Свеча, созданная своими руками, с любовью и добрыми пожеланиями, — гораздо больше, чем просто красивый подарок.</p>
+        <div class="price">
+          <span class="kicker">Стоимость курса</span>
+          <s><span class="sr">Старая цена: </span>6&nbsp;999&nbsp;₽</s>
+          <b><span class="sr">Цена сейчас: </span><span class="num" data-from="6999">5&nbsp;990</span>&nbsp;₽</b>
+        </div>
+        <div class="btns">
+          <a class="btn btn--gold" href="https://vk.me/svechi_ul" target="_blank" rel="noopener">Записаться на курс</a>
+          <a class="btn btn--line" href="#jlw-cert-svechi">Подарить сертификат</a>
+        </div>
+        <p class="link-small">Кнопка откроет сообщения группы свечей ВКонтакте.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="jlw-paintings" class="linen sep">
+    <div class="wrap course course--rev">
+      <div class="gallery">
+        <figure class="rv-img"><img src="img/kartina-verit-v-chudesa.jpg" alt="Картина «Верить в чудеса»" loading="lazy"><figcaption>«Верить в чудеса», 40×50</figcaption></figure>
+        <figure class="rv-img"><img src="img/kartina-drevo-zhizni.jpg" alt="Картина «Древо жизни»" loading="lazy"><figcaption>«Древо жизни» <span class="todo">размер</span></figcaption></figure>
+        <figure class="rv-img"><img src="img/kartina-lis.jpg" alt="Картина «Рыжая точка сборки»: лис отдыхает на стоге сена в осеннем тумане" loading="lazy"><figcaption>«Рыжая точка сборки», 40×60</figcaption></figure>
+        <figure class="rv-img"><img src="img/kartina-angel-oseni.jpg" alt="Картина «Ангел осени»" loading="lazy"><figcaption>«Ангел осени», 30×40</figcaption></figure>
+      </div>
+      <div class="text">
+        <p class="kicker">Авторская живопись</p>
+        <h2>Ресурсные <span class="g">картины</span></h2>
+        <p class="lead">Каждая картина создаётся в определённом состоянии и несёт в себе ресурс и энергию, которые мягко откликаются человеку и поддерживают его в жизни.</p>
+        <h4>Эти картины помогают</h4>
+        <ul class="marks">
+          <li>почувствовать спокойствие и гармонию</li>
+          <li>наполниться энергией и внутренним ресурсом</li>
+          <li>обрести опору и состояние баланса</li>
+          <li>мягко пройти через перемены и новые этапы жизни</li>
+        </ul>
+        <p>Юлия пишет картины вручную, к каждой прилагается авторская практика. Не знаете, какая картина откликнется? Подарите сертификат — получатель выберет картину сам.</p>
+        <div class="note">
+          <svg class="ico" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill="currentColor" d="M26.22 94.41A6 6 0 0 0 26 96v16a38 38 0 0 0 16 31v73a6 6 0 0 0 6 6h160a6 6 0 0 0 6-6v-73a38 38 0 0 0 16-31V96a6 6 0 0 0-.23-1.64l-14.34-50.21A14.07 14.07 0 0 0 202 34H54a14.07 14.07 0 0 0-13.43 10.15Zm25.89-47A2 2 0 0 1 54 46h148a2 2 0 0 1 1.92 1.45L216.05 90H40ZM102 102h52v10a26 26 0 0 1-52 0Zm-64 0h52v10a26 26 0 0 1-38.18 23a6 6 0 0 0-1.65-1A26 26 0 0 1 38 112Zm164 108H54v-61.34a38 38 0 0 0 42-16.21a37.95 37.95 0 0 0 64 0a38 38 0 0 0 42 16.21Zm3.83-76a6 6 0 0 0-1.65 1A26 26 0 0 1 166 112v-10h52v10a26 26 0 0 1-12.17 22"/></svg>
+          <span>Все работы, размеры и цены — в «Товарах» группы «Ресурсные картины». Картины отправляем почтой по России, сроки и цена доставки рассчитываются индивидуально.</span>
+        </div>
+        <div class="btns">
+          <a class="btn btn--gold" href="https://vk.ru/resourcepicture" target="_blank" rel="noopener">Смотреть все картины</a>
+          <a class="btn btn--line" href="#jlw-cert-kartiny">Подарить сертификат</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="jlw-matr" class="linen sep">
+    <div class="wrap course">
+      <div class="collage">
+        <figure class="rv-img"><img src="img/matr-1.jpg" alt="Спиридон-Солнцеворот с колесом в руках" loading="lazy"><figcaption>Спиридон-Солнцеворот</figcaption></figure>
+        <figure class="rv-img"><img src="img/matr-2.jpg" alt="Куколка Санница с саночками" loading="lazy"><figcaption>Санница с саночками</figcaption></figure>
+        <figure class="rv-img"><img src="img/matr-3.jpg" alt="Валенки-шептуны" loading="lazy"><figcaption>Валенки-шептуны</figcaption></figure>
+      </div>
+      <div class="text">
+        <p class="kicker">Курс</p>
+        <h2>Матрёшка <span class="g">благополучия</span></h2>
+        <p class="lead">Создайте своими руками 7 народных оберегов и наполните новый год теплом, благополучием и добрыми намерениями. <span class="todo">В списке 6 предметов — какой седьмой?</span></p>
+        <h4>Что вы создадите на практикуме</h4>
+        <ul class="marks">
+          <li><b>Валенки-шептуны</b> — маленький символ домашнего тепла, уюта и благополучия. Вы узнаете, как их сделать и наполнить добрыми пожеланиями.</li>
+          <li><b>Саночки для Санницы</b> — символ верного пути, движения и добрых перемен. Расскажем об их особом значении в народной традиции.</li>
+          <li><b>Куколка Санница-предсказательница</b> — вместе с валенками и саночками она складывается в особый обережный образ. Вы узнаете его символику и предназначение.</li>
+          <li><b>Венок благополучия</b> — необычный оберег из двух крестов и нитей семи цветов, символ равновесия и гармонии жизненных сфер.</li>
+          <li><b>Спиридон-Солнцеворот</b> — солнечная фигура с колесом в руках. Её связывают с движением, обновлением и умением управлять своим жизненным путём.</li>
+          <li><b>Куколка Внутреннего мира</b> — знакомство с идеей семеричности человека и его внутренней мудростью. Особенная кукла для работы с собой.</li>
+        </ul>
+        <div class="box">
+          <h4>А ещё вас ждёт</h4>
+          <ul class="marks">
+            <li>Семеричная картина мира и символика чисел 7, 12 и 21.</li>
+            <li>Славянские народные традиции и смысл обережных предметов.</li>
+            <li>Практика создания своего обережного круга — для себя и близких.</li>
+            <li>Традиции зимнего солнцестояния и символика обновления.</li>
+            <li>Время для творчества: переключиться от повседневных забот и провести вечер с удовольствием.</li>
+          </ul>
+        </div>
+        <p style="margin-top:22px">Все обереги останутся у вас: их можно разместить дома или подарить родным. Это не сувениры, а вещи, сделанные своими руками, с теплом, вниманием и добрыми пожеланиями.</p>
+        <div class="price">
+          <span class="kicker">Стоимость курса</span>
+          <s><span class="sr">Старая цена: </span>5&nbsp;600&nbsp;₽</s>
+          <b><span class="sr">Цена сейчас: </span><span class="num" data-from="5600">4&nbsp;200</span>&nbsp;₽</b>
+        </div>
+        <div class="btns">
+          <a class="btn btn--gold" href="https://julialeus.ru/buy/75" target="_blank" rel="noopener">Записаться на курс</a>
+          <a class="btn btn--line" href="#jlw-cert-matr">Подарить сертификат</a>
+        </div>
+        <p class="link-small">Оплата на сайте школы, после оплаты уроки откроются в личном кабинете.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="jlw-cert" class="linen sep">
+    <div class="wrap">
+      <p class="kicker">Подарок близким</p>
+      <h2>Подарочный <span class="g">сертификат</span></h2>
+      <p class="lead">Подарите возможность создавать. Вдохновляться. Наполнять жизнь новым смыслом.</p>
+      <p>Сертификат можно купить для себя или подарить близкому человеку. Он электронный — красивая открытка-картинка, которую удобно отправить в мессенджере.</p>
+
+      <div class="certs">
+        <article class="cert-card" id="jlw-cert-svechi">
+          <div class="ph rv-img"><img src="img/cert-svechi.jpg" alt="Подарочный сертификат на курс «Энергия живого огня»" loading="lazy"></div>
+          <div>
+            <h3>На курс «Энергия живого огня»</h3>
+            <p>Славянские свечи своими руками: четыре свечи, работа с воском, травами и намерением.</p>
+          </div>
+        </article>
+        <article class="cert-card" id="jlw-cert-kartiny">
+          <div class="ph rv-img"><img src="img/cert-kartiny.jpg" alt="Подарочный сертификат на ресурсную картину" loading="lazy"></div>
+          <div>
+            <h3>На ресурсную картину</h3>
+            <p>Получатель сам выберет картину из каталога авторских работ Юлии. Если картина дороже номинала, разницу можно доплатить.</p>
+          </div>
+        </article>
+        <article class="cert-card" id="jlw-cert-matr">
+          <div class="ph rv-img"><img src="img/cert-matryoshka.jpg" alt="Подарочный сертификат на курс «Матрёшка благополучия»" loading="lazy"></div>
+          <div>
+            <h3>На курс «Матрёшка благополучия»</h3>
+            <p>Семь народных оберегов своими руками и знакомство с зимними славянскими традициями.</p>
+          </div>
+        </article>
+        <article class="cert-card" id="jlw-cert-univ">
+          <div class="ph rv-img"><img src="img/cert-universal.jpg" alt="Универсальный подарочный сертификат" loading="lazy"></div>
+          <div>
+            <h3>Универсальный</h3>
+            <p>Получатель сам выберет подарок: курс по свечам, ресурсную картину или «Матрёшку благополучия».</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="btns" style="margin-top:28px">
+        <a class="btn btn--gold" href="https://vk.me/bioenerji" target="_blank" rel="noopener">Купить сертификат</a>
+      </div>
+      <p class="link-small">Кнопка откроет сообщения группы ЯРГА ВКонтакте. Напишите, какой сертификат выбрали, — там подскажем, как оплатить, и пришлём сертификат.</p>
+    </div>
+  </section>
+
+  <section id="jlw-how" class="linen sep">
+    <div class="wrap">
+      <p class="kicker">Как купить</p>
+      <h2>Три <span class="g">шага</span></h2>
+      <div class="steps">
+        <div class="step">
+          <svg class="ico" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill="currentColor" d="M26.22 94.41A6 6 0 0 0 26 96v16a38 38 0 0 0 16 31v73a6 6 0 0 0 6 6h160a6 6 0 0 0 6-6v-73a38 38 0 0 0 16-31V96a6 6 0 0 0-.23-1.64l-14.34-50.21A14.07 14.07 0 0 0 202 34H54a14.07 14.07 0 0 0-13.43 10.15Zm25.89-47A2 2 0 0 1 54 46h148a2 2 0 0 1 1.92 1.45L216.05 90H40ZM102 102h52v10a26 26 0 0 1-52 0Zm-64 0h52v10a26 26 0 0 1-38.18 23a6 6 0 0 0-1.65-1A26 26 0 0 1 38 112Zm164 108H54v-61.34a38 38 0 0 0 42-16.21a37.95 37.95 0 0 0 64 0a38 38 0 0 0 42 16.21Zm3.83-76a6 6 0 0 0-1.65 1A26 26 0 0 1 166 112v-10h52v10a26 26 0 0 1-12.17 22"/></svg>
+          <div><h3>Выберите</h3><p>Курс по свечам — запись в сообщениях группы свечей. «Матрёшка благополучия» — оплата на сайте школы. Картины — в «Товарах» группы «Ресурсные картины». Сертификат — в сообщениях группы ЯРГА.</p></div>
+        </div>
+        <div class="step">
+          <svg class="ico" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill="currentColor" d="m222.72 67.91l-88-48.18a13.9 13.9 0 0 0-13.44 0l-88 48.18A14 14 0 0 0 26 80.18v95.64a14 14 0 0 0 7.28 12.27l88 48.18a13.92 13.92 0 0 0 13.44 0l88-48.18a14 14 0 0 0 7.28-12.27V80.18a14 14 0 0 0-7.28-12.27M127 30.25a2 2 0 0 1 1.92 0L212.51 76l-33.94 18.57l-84.52-46.26ZM122 223l-83-45.43a2 2 0 0 1-1-1.75V86.66l84 46ZM43.49 76l38.07-20.85l84.51 46.26L128 122.24ZM218 175.82a2 2 0 0 1-1 1.75L134 223v-90.36l36-19.71V152a6 6 0 0 0 12 0v-45.63l36-19.71Z"/></svg>
+          <div><h3>Получите</h3><p>Сертификат придёт картинкой для мессенджера. Картины отправляем почтой по России, сроки и цена доставки рассчитываются индивидуально.</p></div>
+        </div>
+        <div class="step">
+          <svg class="ico" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill="currentColor" d="M166 112a6 6 0 0 1-6 6H96a6 6 0 0 1 0-12h64a6 6 0 0 1 6 6m-6 26H96a6 6 0 0 0 0 12h64a6 6 0 0 0 0-12m70-10a102 102 0 0 1-150.69 89.65l-34.87 11.62a14 14 0 0 1-17.71-17.71l11.62-34.87A102 102 0 1 1 230 128m-12 0a90 90 0 1 0-167.92 45.06a6 6 0 0 1 .5 4.91l-12.46 37.38a2 2 0 0 0 2.53 2.53L78 205.42a6.2 6.2 0 0 1 1.9-.31a6.1 6.1 0 0 1 3 .81A90 90 0 0 0 218 128"/></svg>
+          <div><h3>Спросите</h3><p>Остались вопросы? Напишите в сообщения группы ЯРГА.</p>
+            <div class="btns"><a class="btn btn--line" href="https://vk.me/bioenerji" target="_blank" rel="noopener">Написать в ЯРГА</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="linen sep">
+    <div class="wrap about">
+      <div class="portrait rv-img"><img src="img/julia-ogni.jpg" alt="Юлия Леус с новогодней гирляндой" loading="lazy"></div>
+      <div class="text">
+        <p class="kicker">Психолог-практик с 1998 года</p>
+        <h2 data-nosplit><span class="g">Ю</span>лия Леус</h2>
+        <p class="lead">Ведёт школу славянских традиций ЯРГА и онлайн-школу «Я-Развитие». Мастер по свечам и автор картин, которые вы видите на этой странице.</p>
+        <div class="btns">
+          <a class="btn btn--gold" href="https://vk.ru/yarazvitieleus" target="_blank" rel="noopener">Страница Юлии ВКонтакте</a>
+          <a class="btn btn--line" href="https://vk.ru/bioenerji" target="_blank" rel="noopener">Группа ЯРГА ВКонтакте</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="on-el">
+    <div class="snow" aria-hidden="true"></div>
+    <div class="wrap">
+      <div>
+        <a class="logo" href="https://julialeus.ru"><b>Ю</b>лия Леус</a>
+        <p class="fine" style="margin:6px 0 0">Новогодняя мастерская</p>
+      </div>
+      <nav>
+        <a href="https://vk.ru/yarazvitieleus" target="_blank" rel="noopener">Юлия</a>
+        <a href="https://vk.ru/bioenerji" target="_blank" rel="noopener">ЯРГА</a>
+        <a href="https://vk.ru/svechi_ul" target="_blank" rel="noopener">Свечи</a>
+        <a href="https://vk.ru/resourcepicture" target="_blank" rel="noopener">Картины</a>
+        <a href="https://julialeus.ru/oferta">Договор оферты</a>
+        <a href="https://julialeus.ru/politika">Политика данных</a>
+      </nav>
+    </div>
+  </footer>
+
+</div>
+<script>
+(function () {
+  var root = document.getElementById('jlw');
+  if (!root) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  root.querySelectorAll('a[href^="#jlw-"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var t = document.querySelector(a.getAttribute('href'));
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); }
+    });
+  });
+  if (reduce) return;
+
+  // снег в первом экране и в подвале
+  var tpl = document.getElementById('jlw-flake');
+  root.querySelectorAll('.snow').forEach(function (snow) {
+    var box = snow.parentElement, big = box.classList.contains('hero');
+    if (!tpl) return;
+    var n = window.innerWidth < 600 ? (big ? 12 : 6) : (big ? 22 : 12);
+    for (var k = 0; k < n; k++) {
+      var f = document.createElement('span');
+      var size = 8 + Math.random() * 14;
+      f.className = 'flake';
+      f.innerHTML = tpl.innerHTML;
+      f.style.left = (Math.random() * 100) + '%';
+      f.style.width = f.style.height = size + 'px';
+      f.style.opacity = (0.35 + Math.random() * 0.5).toFixed(2);
+      f.style.animationDuration = ((big ? 11 : 7) + Math.random() * (big ? 12 : 6)).toFixed(1) + 's';
+      f.style.animationDelay = (-Math.random() * 20).toFixed(1) + 's';
+      f.style.setProperty('--dx', ((Math.random() - 0.5) * 120).toFixed(0) + 'px');
+      f.style.setProperty('--fall', (box.offsetHeight + 80) + 'px');
+      snow.appendChild(f);
+    }
+  });
+
+  if (!('IntersectionObserver' in window)) return;
+
+  // заголовки: каждое слово в своё «окошко», чтобы подниматься по очереди
+  root.querySelectorAll('h1, h2:not([data-nosplit])').forEach(function (h) {
+    var idx = 0;
+    function box(inner) {
+      var w = document.createElement('span'), wi = document.createElement('span');
+      w.className = 'w'; wi.className = 'wi';
+      wi.style.transitionDelay = (idx++ * 0.09) + 's';
+      wi.appendChild(inner); w.appendChild(wi);
+      return w;
+    }
+    (function walk(parent) {
+      Array.prototype.slice.call(parent.childNodes).forEach(function (node) {
+        if (node.nodeType === 3) {
+          var frag = document.createDocumentFragment();
+          node.textContent.split(/(\s+)/).forEach(function (part) {
+            if (!part) return;
+            frag.appendChild(/^\s+$/.test(part) ? document.createTextNode(part) : box(document.createTextNode(part)));
+          });
+          parent.replaceChild(frag, node);
+        } else if (node.nodeType === 1) {
+          if (/\s/.test(node.textContent.trim()) && !node.classList.contains('shine')) { walk(node); }
+          else { var holder = document.createTextNode(''); parent.replaceChild(holder, node); parent.replaceChild(box(node), holder); }
+        }
+      });
+    })(h);
+    h.classList.add('split');
+  });
+
+  root.classList.add('jlw-js');
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      var el = en.target;
+      el.classList.add('in');
+      io.unobserve(el);
+      setTimeout(function () { el.style.transitionDelay = ''; }, 2400);
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+  root.querySelectorAll('.split').forEach(function (h) { io.observe(h); });
+  var groups = ['.hero-frame > *', 'section > .wrap > .kicker, section > .wrap > h2, section > .wrap > p, section > .wrap > .btns', '.navgrid > a', '.course > .text > *', '.about > .text > *', '.marks > li', '.certs > .cert-card', '.steps > .step'];
+  groups.forEach(function (sel) {
+    root.querySelectorAll(sel).forEach(function (el) {
+      if (el.classList.contains('rv-img') || el.classList.contains('split')) return;
+      var i = Array.prototype.indexOf.call(el.parentNode.children, el);
+      el.classList.add('rv');
+      el.style.transitionDelay = (Math.min(i, 5) * 0.1) + 's';
+      io.observe(el);
+    });
+  });
+
+  // золотая нить между блоками
+  var ioSec = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      en.target.classList.add('sec-in');
+      ioSec.unobserve(en.target);
+    });
+  }, { rootMargin: '0px 0px -12% 0px' });
+  root.querySelectorAll('.sep').forEach(function (s) { ioSec.observe(s); });
+
+  // цена: старая зачёркивается, новая «отсчитывается» вниз
+  var fmt = function (n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ' '); };
+  var ioPrice = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      var box = en.target, num = box.querySelector('.num'), b = box.querySelector('b');
+      ioPrice.unobserve(box);
+      box.classList.add('go');
+      if (!num) return;
+      var from = +num.getAttribute('data-from'), to = +num.textContent.replace(/\D/g, ''), t0 = null;
+      num.textContent = fmt(from); // меняем в момент появления блока, поэтому подмены не видно
+      (function step(ts) {
+        if (t0 === null) t0 = ts;
+        var k = Math.min(1, Math.max(0, (ts - t0 - 800) / 1300)), e = 1 - Math.pow(1 - k, 3);
+        num.textContent = fmt(Math.round(from + (to - from) * e));
+        if (k < 1) requestAnimationFrame(step); else { num.textContent = fmt(to); b.classList.add('pop'); }
+      })(performance.now());
+      // страховка: настоящая цена встанет на место, даже если отрисовка кадров приостановлена
+      setTimeout(function () { num.textContent = fmt(to); }, 2600);
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+  root.querySelectorAll('.price').forEach(function (p) { ioPrice.observe(p); });
+
+  // фото с «шторкой» скрыты clip-path, поэтому следим за их родителем
+  var holders = new Map();
+  var io2 = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      (holders.get(en.target) || []).forEach(function (el) { el.classList.add('in'); });
+      io2.unobserve(en.target);
+    });
+  }, { threshold: 0.08 });
+  root.querySelectorAll('.rv-img').forEach(function (el) {
+    var p = el.parentElement;
+    var i = Array.prototype.indexOf.call(p.children, el);
+    el.style.transitionDelay = (Math.min(i, 3) * 0.18) + 's';
+    if (!holders.has(p)) { holders.set(p, []); io2.observe(p); }
+    holders.get(p).push(el);
+  });
+})();
+</script>
+<!-- КОНЕЦ БЛОКА ДЛЯ ELEMENTOR -->
+</body>
+</html>
